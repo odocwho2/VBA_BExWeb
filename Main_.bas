@@ -10,7 +10,7 @@ Public Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal Milliseconds As LongPtr)
 Sub Main()
     
     Application.DisplayAlerts = False
-    Application.ScreenUpdating = True
+            Application.ScreenUpdating = False
     Application.AskToUpdateLinks = False
 
 Dim StartTime As Double
